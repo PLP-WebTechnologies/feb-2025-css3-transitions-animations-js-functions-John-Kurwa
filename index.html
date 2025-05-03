@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS transitions and animations.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <!-- switches to diffferent themes -->
+      <h1>Theme Switcher</h1>
+    </div>
+    
+    <div class="theme-toggle-container">
+      <button class="theme-btn light-btn" id="lightTheme">Light Theme</button>
+      <button class="theme-btn dark-btn" id="darkTheme">Dark Theme</button>
+      <button class="theme-btn colorful-btn" id="colorfulTheme">Colorful Theme</button>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>Light Theme</h3>
+        <p>A light theme is a visual design style for user interfaces that uses light background colors.</p>
+      </div>
+      <div class="card">
+        <h3>Dark Theme</h3>
+        <p>A dark theme is a color scheme used in user interfaces where the background is dark (typically black or dark gray) and the text and UI elements are light.</p>
+      </div>
+      <div class="card">
+        <h3>Interactive Elements</h3>
+        <p>Hover and click on elements to see different animations.</p>
+      </div>
+      <div class="card">
+        <h3>Mobile Friendly</h3>
+        <p>The layout adjusts nicely for different screen sizes.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="notification" id="notification">Theme changed!</div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
